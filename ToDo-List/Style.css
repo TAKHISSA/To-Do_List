@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top:100px;
+}
+#font{
+    font-size: 50px;
+}
+#inputText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    vertical-align: middle;
+    border: 3px solid #146C94;
+    border-radius: 15px;
+    color: #569DAA;
+}
+#addTodo{
+    height: 45px;
+    width: 80px;
+    border-radius: 15px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:#146C94;
+    color: white;
+}
+#ClearTodo{
+    height: 45px;
+    width: 100px;
+    border-radius: 15px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+#ClearTodo:active{
+    background-color: #494545;
+}
+#addTodo:active{
+    background-color: rgb(84, 116, 172);
+}
+.To-dos{
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    text-transform: capitalize;
+    color:#146C94;
+
+}
